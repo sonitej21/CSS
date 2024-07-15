@@ -1,0 +1,307 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid black; */
+    background-color: black;
+    position: fixed;
+}
+.logo{
+    width: 20%;
+    height: 120px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 40px;
+    float: left;
+    color: #A29C9C;
+}
+header .nav1{
+    width: 30%;
+    height: 120px;
+    /* border: 1px solid white; */
+    float: left;
+    margin-left: 20%;
+}
+
+header .nav2 {
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 120px;
+    float: right;
+}
+.nav1 ul li{
+    display: inline-block;
+    color: #959090;
+    text-align: center;
+    line-height: 120px;
+    margin-left: 60px;
+}
+
+.nav2 ul li {
+    display: inline-block;
+    color: #959090;
+    text-align: center;
+    line-height: 120px;
+    margin-left: 40px;
+}
+
+.nav2 ul li:first-child {
+    font-size: 20px;
+}
+
+.nav2 .search {
+    border-bottom: 1px solid white;
+    width: auto;
+    height: 30px;
+    margin-top: 48px;
+    float: left;
+}
+
+.nav2 .search input {
+    outline: none;
+    border: none;
+    background-color: black;
+}
+
+::placeholder {
+    background-color: black;
+    color: white;
+}
+
+.photo{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(image/img1.png);
+}
+.txt1{
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-top: 17%;
+}
+.btn1{
+    text-align: center;
+    margin-left: 45%;
+    width: 10%;
+    height: 50px;
+    color: black;
+    /* border: 1px solid black; */
+}
+.btn1:hover{
+    background-color: pink;
+}
+.shop{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.sp1{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid black; */
+    float: left;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding-top: 15%;
+    text-align: center;
+}
+.sp2{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(image/img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn2{
+    width: 15%;
+    height: 50px;
+    /* border: 1px solid white; */
+    background-color: white;
+}
+.btn2:hover{
+    background-color: pink;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.img1{
+    width: 33.3%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    
+    background-image: url(image/img5.webp);
+}
+.img2{
+    width: 33.3%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(image/img3.webp);
+}
+.img3{
+    width: 33.3%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(image/img4.webp);
+}
+.sale{
+    width: 100%;
+    height: 720px;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+}
+.txt3{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+.txt4{
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+}
+.sale1{
+    width: 20%;
+    height: 450px;
+    /* border: 1px solid white; */
+    float: left;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20%;
+    
+}
+.sale2{
+    width: 20%;
+    height: 450px;
+    /* border: 1px solid white; */
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.sale3{
+    width: 20%;
+    height: 450px;
+    /* border: 1px solid white; */
+    float: left;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.ab2{
+    background-image: url(image/img9.jpg);
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-size: cover;
+    background-color: black;
+}
+.txt5{
+    background-color: transparent;
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* line-height: 50px; */
+    color: white;
+    padding-top: 150px;
+    /* margin-left: 100px; */  
+}
+.foo{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+}
+.foo1{
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+
+}
+.foo2{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid white; */
+    color: white;
+    float: left;
+}
+.foo3{
+    width: 50%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.txt9{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+.txt10{
+     text-align: center;
+     margin-top: 20px;
+     font-size: 30px;
+}
+.contain{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: #141414;
+}
+.con1{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 60px;
+}
+.con2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.con3{
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.btn5{
+    text-align: center;
+    width: 45%;
+    height: 60px;
+    margin-left: 27%;
+}
+.btn6{
+    text-align: center;
+    width: 45%;
+    height: 60px;
+    margin-left: 27%;
+}
+

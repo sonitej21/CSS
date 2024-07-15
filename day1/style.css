@@ -1,0 +1,22 @@
+h1{
+    color: pink;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: chartreuse;
+}
+h4{
+    color: bisque;
+}
+h5{
+    color: greenyellow;
+}
+h6{
+    color: green;
+}
+p{
+    font-size: 30px;
+    color: blue;
+}

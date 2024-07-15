@@ -1,0 +1,48 @@
+								CSS Theory
+
+1. what is css??
+-  it is used to design html page
+
+2. types of css??
+-  there are three types of css
+-	inline css
+-	internal css
+-	external css
+
+3. how to save css file??
+-  .css
+
+4. where to write css
+-  html file
+-  create seprate file of css save with .css extension
+
+Notes: font ni defult size 16px hoy che
+
+														Basic knowlewdge
+
+- inline css ma always style lakhine j start thase
+- internal css head ni under style tag krine krvanu thase
+- external css mate ak navi css file bnavi pde
+- most of external and internal css no use thase
+- internal css ma jo aapde claas ka id no use kyro hoy to class mate (.)sign and id mate (#) sign no use thase
+- font size atle word ne nana mota krva mate kam aave
+- word ne color krva mate font color no use thay che
+- word ne bold krva mate font weight no use thay che
+- word ne italic krva mate font no use thay che
+- word ne new font apva mate font family no use thay che
+- word ne vache lyava mate text align no use thay che
+- word ne line n avu krva mate text decoration no use thay che
+- word ne uppercase ne avu krva mate text transform no use thay che 
+- paragraph padva mate text indent no use thay che
+- word ne uper thi jagya 6odva mate line height no use thay che
+- word ni vache space krva mate word spacing no use thay che
+- letter ni space mate letter spacing no use thay che
+
+
+
+
+
+
+
+
+

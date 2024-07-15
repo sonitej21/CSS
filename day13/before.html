@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before</title>
+    <style>
+        h1::before{
+            content: css;
+        }
+        ul{
+            width: 600px;
+            height: 100px;
+            border: 1px solid black;
+            line-height: 100px;
+        }
+        ul li{
+            float: left;
+            margin-left: 50px;
+            list-style: none;
+            font-size: 25px;
+            position: relative;
+        }
+        ul li::before{
+            content: "-";
+            /* width: %; */
+            height: 5px;
+            background-color: green;
+            position: absolute;
+            top: 40px;
+        }
+        ul li:hover::before{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is an example of before</h1>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>service</li>
+        <li>contact</li>
+        <li>link</li>
+    </ul>
+</body>
+</html>
